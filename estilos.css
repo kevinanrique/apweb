@@ -1,0 +1,54 @@
+h2{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 20px.
+	font-style:italic;
+	font-weight: bold;
+	letter-spacing: 10px;
+	word-spacing: 5px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+
+.key {
+  color: white;
+}
+
+#clase1{
+	color:green;
+}
+
+#clase2{
+	color:#8a2be2;
+}
+#principal {	
+  font-weight: bolder;
+  background-color: #FFC300;
+}
+
+#principal1 {
+  font-weight: bolder;
+  background-color: #FF5733;
+}
+
+#principal2 {
+  font-weight: bolder;
+  background-color: #C70039;
+}
+
+body{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.media {
+	position: fixed; width: 50%; height: 50%; background-position: center center; background-size: cover; background-repeat: no-repeat; 
+	}
