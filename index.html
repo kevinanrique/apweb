@@ -1,47 +1,73 @@
 <!DOCTYPE html>
-  
-  <html>
-    <head>
-      <link rel="shortcut icon" href="favicon.ico">
-      <link rel="stylesheet" type="text/css" href="estilos.css">
-      <meta charset="UTF-8"></head>
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <title>Clases AP</title>
-    </head>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Clases AP</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <!--Definir el juego de caracteres-->
+    <meta charset=”UTF-8”>
 
-    <body>
-        <h1>Aprende Programando</h1>
-        <img  src="Imagen_AP.bmp" alt="aprendeprogramando" class="center">
-        
-        <h2 id="clase1" >Clase 1</h3>
-       <div>   
-          <a href="http://www.buenosaires.gob.ar/educacion/estudiantes/aprendeprogramando/inscribite" title = "TEXTO" target="_blank">
-          <h4>Inscripción para AP</h4></a>
-       </div>
- 
-        <div clase= "key" id="principal">
+    <!--Definir la descripción de la página-->
+    <meta name=”description” content=”descripcion de mi pagina”>
 
-          <p>En esta clase se presentaron las reglas de Ap, del establecimiento y se dio una breve introducción a HTML</p>
-        </div>
-        
-        <h2 id="clase2">Clase 2</h2>
-        <div class="key" id="principal1">
-          <ul>
-            <li>Sublime (utilización e instalación)</li>
-            <li>Etiquetas de HTML</li>
-            <li>Ejercicio para aplicar HTML</li>
-          </ul>
-        </div>
-        
-        <h2 id ="clase2">Clase 3</h2>
-        <div class="key" id="principal2">
-          <ul>
-            <li>Repaso de HTML</li>
-            <li>Introducción CSS</li>
-            <li>CSS</li>
-          </ul>
-        <div>
-      <script src="main.js"></script>
-    </body>
+    <!--Definir palabras clave-->
+    <meta name=”keywords” content=”ap2018, HTML, programacion”>
 
+    <!--Definir autor de la página-->
+    <meta name=”author” content=”nombre del autor”>
+
+    <!--Viewport: Área visible de la página y Varía de dispositivo en dispositivo-->
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+
+  </head>
+  <body>
+    <h1>Aprende Programando</h1>
+    <div id="izquierda">
+      <img  src="Imagen_AP.bmp">
+      <ul>
+        <li><a href="#clase1">Clase 1</a></li>
+        <li><a href="#clase2">Clase 2</a></li>
+        <li><a href="#clase3">Clase 3</a></li>
+        <li><a href="#clase4">Clase 4</a></li>
+      </ul>
+    </div>
+    <div id="derecha">
+      <h2 id="clase1">Clase 1</h2>
+      <div class="seccion">
+        <a href="http://www.buenosaires.gob.ar/educacion/estudiantes/aprendeprogramando/inscribite">Inscripción para AP</a>
+        <p>En esta clase se presentaron las reglas de Ap, del establecimiento y se dio una breve introducción a HTML</p>
+      </div>
+      <h2 id="clase2">Clase 2</h2>
+      <div class="seccion">
+        <ul>
+          <li>Sublime (utilización e instalación)</li>
+          <li>Etiquetas de HTML</li>
+          <li>Ejercicio para aplicar HTML</li>
+        </ul>
+      </div>
+      <h2 id="clase3">Clase 3</h2>
+      <div class="seccion">
+        <ul>
+          <li>Repaso de HTML</li>
+          <li>Introducción CSS</li>
+          <li>CSS</li>
+        </ul>
+      </div>  
+      <h2 id="clase4">Clase 4</h2>
+      <div class="seccion" id="radial">
+        <h3><strong><u>HTML</u></strong></h3>
+        <ul>
+          <li><strong>strong</strong></li>
+          <li><em>em</em></li>
+          <li><u>u</u></li>
+          <li><strike>strike</strike></li>
+          <li><mark>mark</mark></li>
+          <li>Atributo target(_self, _blank, recursos) para los link</li>
+        </ul>
+        <h3><strong><u>CSS</u></strong></h3>
+          <p> Vamos a ver el concepto del modelo de cajas.</p>
+      </div>   
+  </div>
+  </body>
 </html>
